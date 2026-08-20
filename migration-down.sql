@@ -1,0 +1,29 @@
+DROP TABLE IF EXISTS reparation;
+
+DROP TABLE IF EXISTS inscription;
+
+DROP TABLE IF EXISTS atelier;
+
+DROP TABLE IF EXISTS benevoleCompetence;
+
+DROP TABLE IF EXISTS benevole;
+
+DROP TABLE IF EXISTS objet;
+
+DROP TABLE IF EXISTS depot;
+
+DROP TABLE IF EXISTS competence;
+
+DROP TABLE IF EXISTS vente;
+
+DROP TABLE IF EXISTS personne;
+
+DROP TYPE IF EXISTS status;
+
+DROP TYPE IF EXISTS etat;
+
+DROP TYPE IF EXISTS categorie;
+
+DROP TYPE IF EXISTS modePaiement;
+
+DROP TYPE IF EXISTS typeDepot;
