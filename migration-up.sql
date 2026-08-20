@@ -1,3 +1,4 @@
+-- Active: 1787217948281@@127.0.0.1@5432@LaRemise
 
 CREATE TYPE typeDepot AS ENUM ('Depot', 'Collect');
 
@@ -50,6 +51,12 @@ CREATE TABLE objet (
     id_depot INT NOT NULL,
     FOREIGN KEY (id_depot) REFERENCES depot(id),
     FOREIGN KEY (id_vente) REFERENCES vente(id)
+);
+
+CREATE TABLE enRayon (
+    Date DATE NOT NULL,
+    id_objet INT NOT NULL,
+    FOREIGN KEY (id_objet) REFERENCES objet(id)
 );
 
 CREATE TABLE benevole (

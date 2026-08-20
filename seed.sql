@@ -105,6 +105,13 @@ INSERT INTO objet (Description, Categorie, Etat, Poids, Status, PrixOrigine, Pri
     ('Boite a outils', 'bricolage', 'Bon Etat', 5, 'En Rayon', 93, NULL, NULL, 8),
     ('Etabli pliant', 'bricolage', 'Bon Etat', 15, 'Vendu', 94, 93, 2, 4);
 
+INSERT INTO enRayon (date, id_objet) VALUES
+    ('2025-10-20', 1),
+    ('2026-06-15', 6),
+    ('2026-01-05', 9),
+    ('2025-11-30', 18),
+    ('2026-07-22', 27);
+
 INSERT INTO benevole (date, id_personne) VALUES
     ('2024-01-15', 11),
     ('2024-02-20', 12),

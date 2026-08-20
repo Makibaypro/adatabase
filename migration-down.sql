@@ -8,6 +8,8 @@ DROP TABLE IF EXISTS benevoleCompetence;
 
 DROP TABLE IF EXISTS benevole;
 
+DROP TABLE IF EXISTS enRayon;
+
 DROP TABLE IF EXISTS objet;
 
 DROP TABLE IF EXISTS depot;

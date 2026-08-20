@@ -11,9 +11,9 @@ services:
       POSTGRES_PASSWORD: Admin
       POSTGRES_DB: LaRemise
     volumes:
-      - ./data:/var/lib/postgresql/data
       - ./migration-up.sql:/docker-entrypoint-initdb.d/migration-up.sql
       - ./seed.sql:/docker-entrypoint-initdb.d/seed.sql
+      - ./data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
 
