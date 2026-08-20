@@ -1,0 +1,1 @@
+SELECT COUNT(objet.id), depot.date
